@@ -38,11 +38,11 @@ while k<len(InputStr):
     
     temp = InputStr[k:].find('\n')
     if(temp<0):
-        OutputStr += "<AddIRCMessage Author=\"{}\" TargetComp=\"{}\" Delay=\"{}\">".format(Name, targetComp, delay) + InputStr[k:len(InputStr)-1] + "</AddIRCMessage>" + '\n'
+        OutputStr += "<AddIRCMessage Author=\"{}\" TargetComp=\"{}\" Delay=\"{}\">".format(Name, targetComp, delay) + InputStr[k:len(InputStr)] + "</AddIRCMessage>" + '\n'
         break
     OutputStr += "<AddIRCMessage Author=\"{}\" TargetComp=\"{}\" Delay=\"{}\">".format(Name, targetComp, delay) + InputStr[k:temp+k] + "</AddIRCMessage>" + '\n'
     k = temp+k+1
-	
+    
 OutputStr += "<\ConditionalActions>"
 
 OutputFile = open(OutputFileName, "w")
