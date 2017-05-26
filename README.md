@@ -58,6 +58,6 @@ somecomp
 <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> Holy shit, how?</AddIRCMessage>
 <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> ;)</AddIRCMessage>
 <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Oh yeah, @#PLAYERNAME# - the whitelist server is down!</AddIRCMessage>
-<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> You should be able to connect to the Bookings Mainframe no</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> You should be able to connect to the Bookings Mainframe now</AddIRCMessage>
 <\ConditionalActions>
 ```
