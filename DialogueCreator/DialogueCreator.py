@@ -22,25 +22,26 @@ k = temp+1
 delay = ""
 Name = ""
 while k<len(InputStr):
-	temp = InputStr[k:].find(' ')
-	if(temp<0):
-		break
-	delay = InputStr[k:(temp+k)]
-	
-	k = temp + k
-	
-	temp = InputStr[k:].find(':')
-	if(temp<0):
-		break
-	Name = InputStr[k:(temp+k)]
-	
-	k = temp+k+1
-	
-	temp = InputStr[k:].find('\n')
-	if(temp<0):
-		break
-	OutputStr += "<AddIRCMessage Author=\"{}\" TargetComp=\"{}\" Delay=\"{}\">".format(Name, targetComp, delay) + InputStr[k:temp+k] + "</AddIRCMessage>" + '\n'
-	k = temp+k+1
+    temp = InputStr[k:].find(' ')
+    if(temp<0):
+        break
+    delay = InputStr[k:(temp+k)]
+    
+    k = temp + k + 1
+    
+    temp = InputStr[k:].find(':')
+    if(temp<0):
+        break
+    Name = InputStr[k:(temp+k)]
+    
+    k = temp+k+1
+    
+    temp = InputStr[k:].find('\n')
+    if(temp<0):
+        OutputStr += "<AddIRCMessage Author=\"{}\" TargetComp=\"{}\" Delay=\"{}\">".format(Name, targetComp, delay) + InputStr[k:len(InputStr)-1] + "</AddIRCMessage>" + '\n'
+        break
+    OutputStr += "<AddIRCMessage Author=\"{}\" TargetComp=\"{}\" Delay=\"{}\">".format(Name, targetComp, delay) + InputStr[k:temp+k] + "</AddIRCMessage>" + '\n'
+    k = temp+k+1
 	
 OutputStr += "<\ConditionalActions>"
 
