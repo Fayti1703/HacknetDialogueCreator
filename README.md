@@ -1,8 +1,10 @@
 # HacknetDialogueCreator
-Program converts files written in .txt to proper .xml codes for Hacknet IRC dialogue.
+Program converts files written in .txt to proper .xml for Hacknet IRC dialogue.
 
 The .xml file will be created with the same name as .txt input and in the same path.
 It will overwrite any existing file with the same name, so bear that in mind while using it.
+
+[Download .exe executable file](https://github.com/mareszm041/HacknetDialogueCreator/raw/master/DialogueCreator/dist/DialogueCreator.exe)
 
 .txt template:
 ```
