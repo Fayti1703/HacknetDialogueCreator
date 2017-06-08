@@ -41,23 +41,23 @@ somecomp
 .xml output for given example input:
 ```
 <ConditionalActions>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="0.6"> Ugh, @channel everyone else running into the brick wall of this whitelist server?</AddIRCMessage>
-<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="0.4"> Yeah - I think I've got an idea, though. If you can bring it down for a minute or two I'll take care of it.</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="0.2"> Huh?.</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="0"> I mean, sure, I can probably sort something out, but, no idea what you're thinking :\</AddIRCMessage>
-<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Trade secret ;). You ready? Countdown me</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> Sure, hold on...</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 5</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 4</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 3</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 2</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 1</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> Done, gogogogo</AddIRCMessage>
-<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Almost got it...</AddIRCMessage>
-<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Annnnd done! We're good to go. Check it for me D3f4ult ?</AddIRCMessage>
-<AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> Holy shit, how?</AddIRCMessage>
-<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> ;)</AddIRCMessage>
-<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Oh yeah, @#PLAYERNAME# - the whitelist server is down!</AddIRCMessage>
-<AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> You should be able to connect to the Bookings Mainframe now</AddIRCMessage>
-<\ConditionalActions>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="0.6"> Ugh, @channel everyone else running into the brick wall of this whitelist server?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="0.4"> Yeah - I think I've got an idea, though. If you can bring it down for a minute or two I'll take care of it.</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="0.2"> Huh?.</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="0"> I mean, sure, I can probably sort something out, but, no idea what you're thinking :\</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Trade secret ;). You ready? Countdown me</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> Sure, hold on...</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 5</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 4</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 3</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 2</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> 1</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> Done, gogogogo</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Almost got it...</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Annnnd done! We're good to go. Check it for me D3f4ult ?</AddIRCMessage>
+  <AddIRCMessage Author="D3f4ult" TargetComp="somecomp" Delay="2"> Holy shit, how?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> ;)</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> Oh yeah, @#PLAYERNAME# - the whitelist server is down!</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="somecomp" Delay="2"> You should be able to connect to the Bookings Mainframe now</AddIRCMessage>
+</ConditionalActions>
 ```
