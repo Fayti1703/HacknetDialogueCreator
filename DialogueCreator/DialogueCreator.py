@@ -44,7 +44,7 @@ while k<len(InputStr):
     OutputStr += "<AddIRCMessage Author=\"{}\" TargetComp=\"{}\" Delay=\"{}\">".format(Name, targetComp, delay) + InputStr[k:temp+k] + "</AddIRCMessage>" + '\n'
     k = temp+k+1
     
-OutputStr += "<\ConditionalActions>"
+OutputStr += "</ConditionalActions>"
 
 OutputFile = open(OutputFileName, "w")
 OutputFile.write(OutputStr)
