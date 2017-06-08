@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 InputFileName = input("Insert path to input file: ")
 OutputFileName = InputFileName[:InputFileName.find(".txt")] + ".xml"
 
